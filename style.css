@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #232504;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrap {
+  background-color: #2f451d;
+  max-width: 800px;
+  padding: 2rem 0px;
+  border-right: 0.5rem solid #171367;
+  border-radius: 1rem;
+}
+
+.form-wrap h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.signup-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-box {
+  flex-basis: 60%;
+  flex: 4;
+  background-color: #4f7329;
+}
+
+.right-box {
+  flex-basis: 50%;
+  flex: 1;
+}
+
+.right-box img {
+  display: block;
+  width: 500px;
+  margin: auto;
+}
+
+.form-control {
+  width: 90%;
+  padding: 0.5rem;
+  margin: 0.2rem 1rem;
+  outline: none;
+  border: 1px solid #273746;
+  font-size: 1rem;
+  border-radius: 04px;
+}
+
+.left-box a {
+  text-decoration: none;
+  background: #273746;
+  color: #fff;
+  margin: 1rem 1rem;
+  padding: 0.6rem 0.5rem;
+  display: block;
+  text-align: center;
+  width: 91%;
+  transition: all 0.5s;
+  border-radius: 03px;
+}
+
+.left-box a:hover {
+  background: #6c63ff;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.container {
+  color: #c62e2e;
+  text-align: center;
+}
+
+.container p {
+  padding: 1rem 0px;
+}
+
+.container a {
+  color: #5e2515;
+}
+
+@media (max-width: 768px) {
+  .signup-box {
+    flex-direction: column;
+  }
+}
+.title {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+  color: #a0bcdf; 
+}
+p {
+  border: 2px solid #137172; 
+  border-block-start-color: rgb(165, 201, 201);
+  padding: 20px;
+  border-radius: 8px; 
+  text-align: center;
+  background-color: #210f04;
+  
+}
+body {
+  background-color:#e3261c; /* Replace with your image URL */
+  background-size: cover; /* Makes the image cover the entire background */
+  background-repeat: no-repeat; /* Prevents tiling of the image */
+  background-position: center; /* Centers the image */
+}
+.j{
+  background-color:#1c97e3; /* Replace with your image URL */
+  background-size: cover; /* Makes the image cover the entire background */
+  background-repeat: no-repeat; /* Prevents tiling of the image */
+  background-position: center; /
+
+}
